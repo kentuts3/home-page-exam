@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", monospace;
+}
+.hero-section {
+    background-image: url('https://png.pngtree.com/background/20230527/original/pngtree-computer-store-with-many-computers-and-displays-picture-image_2759015.jpg'); /* Replace 'your-image-url.jpg' with your actual image URL */
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    color: white; /* Ensures the text is white */
+    position: relative;
+}
+
+.overlay {
+    background: rgba(0, 0, 0, 0.5); /* Adds a dark overlay to improve text visibility */
+    padding: 20px; /* Adds some padding around the text */
+    border-radius: 10px; /* Optional: Rounds the corners of the overlay */
+}
+
+.btn-primary {
+    background-color: #27c041; /* Example: A pink color that might match Kpop themes */
+    border: none;
+    padding: 10px 20px;
+    text-transform: uppercase; /* Makes the button text uppercase */
+    letter-spacing: 1px; /* Increases spacing between letters for better readability */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.btn-primary:hover {
+    background-color: greenyellow; /* Darker shade of pink on hover */
+}
+
+.carousel h3{
+    color: yellowgreen;
+}
+
+.carousel {
+    height: 700px;
+}
+
+.carousel-inner {
+    height: 100%;
+}
+
+.carousel-item {
+    height: 100%;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: greenyellow; /* Applies background color to the icon container */
+    border-radius: 20%; /* Optional: makes the background color circular */
+}
+
+/* Ensure that the buttons themselves have proper sizing and visibility */
+.carousel-control-prev,
+.carousel-control-next {
+    background-color: transparent; /* Removes the default button background */
+    border: none; /* Removes the default border */
+}
+
+.carousel-control-prev-icon::before,
+.carousel-control-next-icon::before {
+    color: black; /* Adjusts the color of the arrows if needed */
+}
+
+/* Featured Products */
+
+.featured-section h1 {
+    color: yellowgreen;
+}
