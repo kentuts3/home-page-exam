@@ -77,3 +77,8 @@
 .featured-section h1 {
     color: yellowgreen;
 }
+
+.card img{
+    height: 20vh;
+    width: 10vw;
+}
